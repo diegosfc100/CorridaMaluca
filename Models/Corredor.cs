@@ -12,7 +12,13 @@ namespace CorridaMaluca
         {
             this.Nome = nome;
         }
-        
+
         public string Nome { get; set; } // Propriedade (prop + tab)
+
+        public int Correr()
+        {
+            Random random = new Random();
+            return random.Next(1, 5); 
+        }
     }
 }
