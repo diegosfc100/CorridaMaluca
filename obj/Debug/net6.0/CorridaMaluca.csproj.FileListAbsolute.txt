@@ -1,0 +1,15 @@
+/home/diego-jn2/Documentos/CorridaMaluca/bin/Debug/net6.0/CorridaMaluca
+/home/diego-jn2/Documentos/CorridaMaluca/bin/Debug/net6.0/CorridaMaluca.deps.json
+/home/diego-jn2/Documentos/CorridaMaluca/bin/Debug/net6.0/CorridaMaluca.runtimeconfig.json
+/home/diego-jn2/Documentos/CorridaMaluca/bin/Debug/net6.0/CorridaMaluca.dll
+/home/diego-jn2/Documentos/CorridaMaluca/bin/Debug/net6.0/ref/CorridaMaluca.dll
+/home/diego-jn2/Documentos/CorridaMaluca/bin/Debug/net6.0/CorridaMaluca.pdb
+/home/diego-jn2/Documentos/CorridaMaluca/obj/Debug/net6.0/CorridaMaluca.csproj.AssemblyReference.cache
+/home/diego-jn2/Documentos/CorridaMaluca/obj/Debug/net6.0/CorridaMaluca.GeneratedMSBuildEditorConfig.editorconfig
+/home/diego-jn2/Documentos/CorridaMaluca/obj/Debug/net6.0/CorridaMaluca.AssemblyInfoInputs.cache
+/home/diego-jn2/Documentos/CorridaMaluca/obj/Debug/net6.0/CorridaMaluca.AssemblyInfo.cs
+/home/diego-jn2/Documentos/CorridaMaluca/obj/Debug/net6.0/CorridaMaluca.csproj.CoreCompileInputs.cache
+/home/diego-jn2/Documentos/CorridaMaluca/obj/Debug/net6.0/CorridaMaluca.dll
+/home/diego-jn2/Documentos/CorridaMaluca/obj/Debug/net6.0/ref/CorridaMaluca.dll
+/home/diego-jn2/Documentos/CorridaMaluca/obj/Debug/net6.0/CorridaMaluca.pdb
+/home/diego-jn2/Documentos/CorridaMaluca/obj/Debug/net6.0/CorridaMaluca.genruntimeconfig.cache
