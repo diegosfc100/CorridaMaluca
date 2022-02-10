@@ -4,11 +4,21 @@ namespace CorridaMaluca
     {
         public int Tamanho { get; set; }
 
-        private int posCorredor;
-        public int PosCorredor
+        private int posAtleta;
+        public int PosAtleta
         {
-            get { return this.posCorredor; }
-            set { this.posCorredor = value; }
+            get { return this.posAtleta; }
+            //set { this.posAtleta = value; }
+        }
+
+        public Corredor Atleta { get; set; }
+
+        //String pista = "";
+        //String CorredorPista = "";
+
+        public void AtualizarCorrida()
+        {
+            this.posAtleta += this.Atleta.Correr();
         }
         
     }
