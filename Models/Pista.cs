@@ -11,8 +11,6 @@ namespace CorridaMaluca
             this.Tamanho = tamanho;
             this.Atleta = atleta;
             this.posAtleta = 0;
-            this.corredorPista = "";
-            this.pista = "";
         }
         public int Tamanho { get; set; }
 
@@ -31,5 +29,29 @@ namespace CorridaMaluca
             this.posAtleta += this.Atleta.Correr();
         }
         
+        public void ExibirPista()
+        {
+            string pista = "";
+            string corredorPista = "";
+
+            for(int i = 1; i <= this.Tamanho; i++) // monta a img do corredor na pista na posição atual
+            {
+                pista += "-";
+                if(i == this.posAtleta)
+                {
+                    corredorPista += this.Atleta.Nome;
+                }
+                else
+                {
+                    corredorPista += " ";
+                }
+            }            
+
+        // exibir pista e corredor
+        Console.WriteLine(corredorPista);
+        Console.WriteLine(pista);
+        Console.ReadKey();
+        }
+
     }
 }
