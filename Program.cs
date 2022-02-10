@@ -5,16 +5,18 @@ class Program
 {
     static void Main(string[] args)
     {                
-        Corredor c1 = new Corredor();
-        c1.Nome = "diego";
-        
-        Pista pista1 = new Pista(150, c1);
+        Pista pista1 = new Pista(150, new Corredor("Diego"));
+        Pista pista2 = new Pista(150, new Corredor("José"));
 
-        while(pista1.PosAtleta < pista1.Tamanho)
+        Boolean ganhou = false;
+        
+        while(ganhou == false)
         {
             Console.Clear();
-            pista1.AtualizarCorrida();
-            pista1.ExibirPista();
+            if (pista1.AtualizarCorrida() == true) ganhou = true;
+            if (pista2.AtualizarCorrida() == true) ganhou = true;
+            pista1.ExibirPista();            
+            pista2.ExibirPista();
             Console.ReadKey();         
         }
     }
