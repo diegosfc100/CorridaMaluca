@@ -3,8 +3,8 @@ namespace CorridaMaluca
     public class Pista
     {
         
-        private String pista = "";
-        private String corredorPista = "";
+        //private String pista = "";
+        //private String corredorPista = "";
 
         public Pista(int tamanho, Corredor atleta)
         {
@@ -62,7 +62,7 @@ namespace CorridaMaluca
         // exibir pista e corredor
         Console.WriteLine(corredorPista);
         Console.WriteLine(pista);
-        Console.ReadKey();
+        //Console.ReadKey();
         }
 
     }
