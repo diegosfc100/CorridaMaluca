@@ -2,32 +2,27 @@ namespace CorridaMaluca
 {
     public class Corredor
     {
-        
+        public static Random rnd = new Random();
         public Corredor() // Construtor (ctr + tab)
         {
             this.Nome = "";
         }
 
-        public Corredor(string nome)
+        public Corredor(String nome)
         {
             this.Nome = nome;
         }
 
-        private string nome; // Propriedade (propfull + tab)
-        public string Nome
+        private String nome; // Propriedade (propfull + tab)
+        public String Nome
         {
             get { return this.nome; }
-            set { 
-                this.nome = value.ToUpper();
-                if(value.Length > 1) this.nome = value[0].ToString().ToUpper();
-                if(value.Length == 0) this.nome = "d";
-            }
+            set { nome = value; }               
         }
         
-        public int Correr()
+        public int Correr() // Método
         {
-            Random random = new Random();
-            return random.Next(1, 5); 
+            return Corredor.rnd.Next(1, 10);
         }
     }
 }
